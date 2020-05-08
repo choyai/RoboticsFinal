@@ -33,5 +33,5 @@ for i = 1:n
     tforms(:,:,i) = getTransform(robot,config,robot.BodyNames{i},'base');
 end
 % display frame at that config
-show(robot,config);
+%show(robot,config);
 end
